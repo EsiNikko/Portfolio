@@ -5,6 +5,7 @@ function showForm(event){
 	contactForm.style.display = "block";
 	contactInfo.style.display = "none";
 }
+
 function showUserInfo(event){
 	event.preventDefault();
 	var contactInfo = document.getElementById("contact-info");
